@@ -91,6 +91,7 @@ dengan menggunakan tag dasar html.</p>
 <!-- sub judul paragraf -->
 <h3>Menambahkan Gambar</h3>
 <!-- menambahkan gambar pada dokumen -->
+<img src="Logo_UPB.png" title="Logo Univeritas Pelita Bangsa">
 ```
 ![langkah 8](https://user-images.githubusercontent.com/56241285/113015408-b8bea580-91a7-11eb-8059-a33b8cb7c5cb.png)
 
@@ -114,5 +115,46 @@ dengan menggunakan tag dasar html.</p>
 ```
 ![langkah 10](https://user-images.githubusercontent.com/56241285/113015849-210d8700-91a8-11eb-873f-0439fad968a5.png)
 
+## Langkah 11
+### membuat dan menghubungkan halaman kedua menggunakan Hyperlink
+```
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Halaman 2</title>
+</head>
+<body>
+    <!-- judul paragraf pertama -->
+    <h1>HALAMAN 2</h1>
+    <!-- Ini adalah paragraf pertama -->
+    <P>Terimakasih</P>
+</body>
+</html>
+```
+![Langkah 11](https://user-images.githubusercontent.com/56241285/113018265-8d898580-91aa-11eb-852f-0b019bb8c5d4.png)
 
-<img src="Logo_UPB.png" title="Logo Univeritas Pelita Bangsa">
+### Jawab Pertanyaan Berikut 
+1. Lakukan perubahan pada code sesuai dengan keinginan anda, amati perubahannya adakah error ketika terjadi kesalahan penulisan tag?
+```
+ada ketika saya melakukan praktek Coding <mark> tidak ditutup dengan </mark> jadi tidak terjadi perubahan.
+```
+2. Apa perbedaan dari tag <p> dengan tag <br> berikan penjelasannya?
+
+```
+kalau <br> jarak enternya 1 line tetapi kalau <p> jarak enter nya tidak terlalu jauh.
+```
+3. Apa perbedaan atribut title dan alt pada tag <img>, berikan penjelasannya!
+```
+kalau title meberi judul pada tag <img> sedangkan alt menjelaskan atau mendeskrifsikan pada tag <img>
+```
+4. Untuk mengatur ukuran gambar, digunakan atribut width dan height. Agar tampilan gambar proporsional sebaiknya kedua atribut tersebut diisi semua atau tidak? Berikan penjelasannya!
+```
+agar ukuran gambar proporsional cantumkan salah satu atribut saja (width atau height), misalkan height=100px 
+```
+5. Pada link tambahkan atribut target dengan nilai atribut bervariasi (`_blank`, `_self`, `_top`, `_parent`), apa yang terjadi pada masing-masing nilai antribut tersebut?
+```
+Nilai _blank akan membuka link/halaman di tab baru.
+Nilai _self akan membuka link/halaman di tab saat ini.
+Nilai _top membuka link/halaman dan membatalkan semua frame.
+Nilai _parent membuka link/halaman pada parent frame.
+```
