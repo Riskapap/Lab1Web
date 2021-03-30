@@ -62,7 +62,7 @@ dengan menggunakan tag dasar html.</p>
 ![langkah 5](https://user-images.githubusercontent.com/56241285/113013684-1c47d380-91a6-11eb-9fee-405e2acab14a.png)
 
 ## Langkah 6
-### Menggunakan Format Teks Seperti : (<b>, <u>, <mark>, dan <i>)
+### Menggunakan Format Teks Seperti : (`<b>`, `<u>`, `<mark>`, dan `<i>`)
 
 ```
   <!-- judul paragraf pertama -->
